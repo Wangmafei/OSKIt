@@ -16,6 +16,7 @@
 		884C71551CF334D000C8ED28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 884C71531CF334D000C8ED28 /* LaunchScreen.storyboard */; };
 		884C71601CF334D000C8ED28 /* OSKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 884C715F1CF334D000C8ED28 /* OSKitTests.m */; };
 		884C716B1CF334D000C8ED28 /* OSKitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 884C716A1CF334D000C8ED28 /* OSKitUITests.m */; };
+		884C717B1CF3380B00C8ED28 /* OSMath.m in Sources */ = {isa = PBXBuildFile; fileRef = 884C717A1CF3380B00C8ED28 /* OSMath.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		884C71661CF334D000C8ED28 /* OSKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OSKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		884C716A1CF334D000C8ED28 /* OSKitUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OSKitUITests.m; sourceTree = "<group>"; };
 		884C716C1CF334D000C8ED28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		884C71791CF3380B00C8ED28 /* OSMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSMath.h; sourceTree = "<group>"; };
+		884C717A1CF3380B00C8ED28 /* OSMath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSMath.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +110,7 @@
 				884C71461CF334D000C8ED28 /* AppDelegate.m */,
 				884C71481CF334D000C8ED28 /* ViewController.h */,
 				884C71491CF334D000C8ED28 /* ViewController.m */,
+				884C71781CF337FC00C8ED28 /* OSKit */,
 				884C714B1CF334D000C8ED28 /* Main.storyboard */,
 				884C71511CF334D000C8ED28 /* Assets.xcassets */,
 				884C71531CF334D000C8ED28 /* LaunchScreen.storyboard */,
@@ -141,6 +145,15 @@
 				884C716C1CF334D000C8ED28 /* Info.plist */,
 			);
 			path = OSKitUITests;
+			sourceTree = "<group>";
+		};
+		884C71781CF337FC00C8ED28 /* OSKit */ = {
+			isa = PBXGroup;
+			children = (
+				884C71791CF3380B00C8ED28 /* OSMath.h */,
+				884C717A1CF3380B00C8ED28 /* OSMath.m */,
+			);
+			path = OSKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -277,6 +290,7 @@
 				884C714A1CF334D000C8ED28 /* ViewController.m in Sources */,
 				884C71471CF334D000C8ED28 /* AppDelegate.m in Sources */,
 				884C71441CF334D000C8ED28 /* main.m in Sources */,
+				884C717B1CF3380B00C8ED28 /* OSMath.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -500,6 +514,7 @@
 				884C71711CF334D000C8ED28 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		884C71721CF334D000C8ED28 /* Build configuration list for PBXNativeTarget "OSKitTests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +523,7 @@
 				884C71741CF334D000C8ED28 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		884C71751CF334D000C8ED28 /* Build configuration list for PBXNativeTarget "OSKitUITests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +532,7 @@
 				884C71771CF334D000C8ED28 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
