@@ -9,5 +9,7 @@
 #import "OSMath.h"
 
 @implementation OSMath
-
+- (void)test{
+    NSLog(@"-------Hello Pod");
+}
 @end

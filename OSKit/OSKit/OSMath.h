@@ -9,5 +9,5 @@
 #import <Foundation/Foundation.h>
 
 @interface OSMath : NSObject
-
+- (void)test;
 @end
