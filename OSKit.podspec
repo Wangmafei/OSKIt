@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name                = "OSKit"
-  s.version             = "1.0.0"
+  s.version             = "1.0.1"
   s.summary             = "OSKit"
   s.homepage            = "https://github.com/Wangmafei"
   s.license             = { :type => "Apache", :file => "LICENSE" }
@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.social_media_url   = "https://github.com/Wangmafei"
   s.platform            = :ios, "8.0"
   s.source              = { :git => "https://github.com/Wangmafei/OSKit.git", :tag => s.version }
-  s.source_files        = "OSKit/**/*.{h,m}"
+  s.source_files        = "OSKit/OSKit/**/*.{h,m}"
   s.requires_arc        = true
 
 end
